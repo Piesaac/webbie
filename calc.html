@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Isaac's Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/styles/app.css" />
+    <link href='https://fonts.googleapis.com/css?family=Syne Mono' rel='stylesheet'>
+  </head>
+  <body>
+    <header style="background-color: rgb(40,40,40); border: 5px outset black;">
+      <h1 style="font-family: 'Syne Mono';">Isaac's Hardcore Calculation Room</h1>
+      <button id="grease" style="background-color: yellow; width: 60px; height: 60px;"><img src="bolt-solid.svg" style="width: 40px; height: 40px; text-align: center;"/></button>   
+      <audio id="crackle" src="earcing.mp3"></audio>
+      <a style="right: 50px; position: absolute; background-color: black; color: cornsilk; border: 3px outset darkgrey;" href="carrie.html">Back Home</a>
+    </header>
+
+    <section id="calculator">
+      <input type="number" id="input-number" />
+      <div id="calc-actions">
+        <button style="background-color: rgb(40,40,40);" type="button" id="btn-add">+</button>
+        <button style="background-color: rgb(40,40,40);" type="button" id="btn-subtract">-</button>
+        <button style="background-color: rgb(40,40,40);" type="button" id="btn-multiply">*</button>
+        <button style="background-color: rgb(40,40,40);" type="button" id="btn-divide">/</button>
+        <button style="background-color: rgb(40,40,40);" type="button" id="btn-square">^x</button>
+      </div>
+    </section>
+    <section id="results">
+      <h2 style="color: rgb(40,40,40)" id="current-calculation">0</h2>
+      <h2 style="color: rgb(40,40,40)">Result: <span id="current-result">0</span></h2>
+    </section>
+    <script src='assets/scripts/vendor.js'></script>
+    <script src='assets/scripts/app.js'></script>
+  </body>
+</html>
