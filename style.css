@@ -1,0 +1,33 @@
+.aboutTitle {
+    background-color: gold;
+    text-align: center;
+    position: absolute;
+    left: 6%;
+    top: 20%;
+    height: 100px;
+    width: 1000px;
+    border: 10px outset goldenrod;
+  }
+  .aboutBody {
+    border: 5px outset silver;
+    background-color: whitesmoke;
+    position: absolute;
+    height: 300px;
+    width: 1070px;
+    top: 40%;
+    left: 3%;
+ }
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
